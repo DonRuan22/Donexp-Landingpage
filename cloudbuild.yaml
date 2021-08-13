@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '-t', 'gcr.io/shopdon-1614963409256/landinpage:$SHORT_SHA', '.']
+  args: ['build', '-t', 'gcr.io/shopdon-1614963409256/landingpage:$SHORT_SHA', '.']
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push','gcr.io/shopdon-1614963409256/landingpage:$SHORT_SHA']
 - name: 'gcr.io/cloud-builders/gcloud'
