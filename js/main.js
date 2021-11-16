@@ -119,7 +119,7 @@ $(document).ready(function (){
     var subject = $('#subject').val();
     var message = $('#message').val();
 
-    $.post('https://us-east1-shopdon-1614963409256.cloudfunctions.net/api-landingPage',   // url
+    $.post('https://us-central1-donexp.cloudfunctions.net/function-email',   // url
        { name: name, email: email, phone: phone, subject: subject, message: message }, // data to be submit
        function(data, status, jqXHR) {// success callback
                 //alert("status "+status +data);
