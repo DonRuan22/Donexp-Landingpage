@@ -637,7 +637,8 @@ Fun Facts Sections
 
 }
 .fun-facts-img img{
-    max-width: 550px;
+    max-width: 250px;
+    max-height: 550px;
     width: 100%;
     box-shadow: var(--shadow-black-100);
     border-radius: 32px;
