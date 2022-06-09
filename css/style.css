@@ -163,7 +163,7 @@ ul{
     animation: bounceTop_01 3s linear infinite;
 }
 .section-padding{
-    padding: 80px 0;
+    padding: 50px 0;
 }
 .section-title{
     margin-bottom: 60px;
@@ -638,7 +638,6 @@ Fun Facts Sections
 }
 .fun-facts-img img{
     max-width: 250px;
-    height: 100%;
     box-shadow: var(--shadow-black-100);
     border-radius: 32px;
     animation: bounceTop_01 3s ease infinite;
